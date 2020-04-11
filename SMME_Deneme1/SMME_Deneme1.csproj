@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bildirimEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bildirimEkrani.Designer.cs">
+      <DependentUpon>bildirimEkrani.cs</DependentUpon>
+    </Compile>
     <Compile Include="facebookLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,9 @@
     <Compile Include="twitterLogin.Designer.cs">
       <DependentUpon>twitterLogin.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="bildirimEkrani.resx">
+      <DependentUpon>bildirimEkrani.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="facebookLogin.resx">
       <DependentUpon>facebookLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +169,9 @@
       <ProductName>.NET Framework 3.5 SP1 </ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-up-a.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

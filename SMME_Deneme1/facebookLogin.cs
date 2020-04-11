@@ -24,6 +24,7 @@ namespace SMME_Deneme1
 
         private void backicon_Click(object sender, EventArgs e)
         {
+            
             girisEkranı grs = new girisEkranı();
             this.Hide();
             grs.Show();
