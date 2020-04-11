@@ -29,168 +29,230 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.usernameFT = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.passwordFT = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.exit = new System.Windows.Forms.Button();
+            this.backButton = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.loginwithYazi = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.backicon = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.usernameFT = new System.Windows.Forms.TextBox();
+            this.passwordFT = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.backicon);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.passwordFT);
-            this.panel1.Controls.Add(this.usernameFT);
-            this.panel1.Location = new System.Drawing.Point(161, 97);
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.Controls.Add(this.tableLayoutPanel2);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.tableLayoutPanel1);
+            this.panel1.Location = new System.Drawing.Point(71, 44);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(224, 198);
-            this.panel1.TabIndex = 0;
+            this.panel1.Size = new System.Drawing.Size(306, 300);
+            this.panel1.TabIndex = 2;
             // 
-            // usernameFT
+            // tableLayoutPanel2
             // 
-            this.usernameFT.BackColor = System.Drawing.Color.White;
-            this.usernameFT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.usernameFT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.usernameFT.Location = new System.Drawing.Point(23, 56);
-            this.usernameFT.MaxLength = 100;
-            this.usernameFT.Name = "usernameFT";
-            this.usernameFT.Size = new System.Drawing.Size(180, 22);
-            this.usernameFT.TabIndex = 0;
+            this.tableLayoutPanel2.ColumnCount = 3;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.36364F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.63636F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 45F));
+            this.tableLayoutPanel2.Controls.Add(this.button1, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.exit, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.backButton, 2, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 264);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(294, 33);
+            this.tableLayoutPanel2.TabIndex = 3;
             // 
-            // label1
+            // button1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(53, 153);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 21);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Kullanıcı Adı";
+            this.button1.BackColor = System.Drawing.SystemColors.Control;
+            this.button1.BackgroundImage = global::SMME_Deneme1.Properties.Resources.giriş_butonu_png_2;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(146, 27);
+            this.button1.TabIndex = 0;
+            this.button1.UseVisualStyleBackColor = false;
             // 
-            // passwordFT
+            // exit
             // 
-            this.passwordFT.BackColor = System.Drawing.Color.White;
-            this.passwordFT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.passwordFT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.passwordFT.Location = new System.Drawing.Point(23, 84);
-            this.passwordFT.MaxLength = 100;
-            this.passwordFT.Name = "passwordFT";
-            this.passwordFT.Size = new System.Drawing.Size(180, 22);
-            this.passwordFT.TabIndex = 0;
-            this.passwordFT.UseSystemPasswordChar = true;
+            this.exit.BackColor = System.Drawing.SystemColors.Control;
+            this.exit.BackgroundImage = global::SMME_Deneme1.Properties.Resources.E10101_2;
+            this.exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.exit.FlatAppearance.BorderSize = 0;
+            this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.exit.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.exit.Location = new System.Drawing.Point(155, 3);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(90, 27);
+            this.exit.TabIndex = 0;
+            this.exit.UseVisualStyleBackColor = false;
             // 
-            // label2
+            // backButton
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(104, 179);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 21);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Şifre";
+            this.backButton.BackgroundImage = global::SMME_Deneme1.Properties.Resources.back_icon;
+            this.backButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.backButton.FlatAppearance.BorderSize = 0;
+            this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backButton.Location = new System.Drawing.Point(251, 3);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(40, 23);
+            this.backButton.TabIndex = 1;
+            this.backButton.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.loginwithYazi);
+            this.panel2.Location = new System.Drawing.Point(6, 93);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(294, 35);
+            this.panel2.TabIndex = 2;
+            // 
+            // loginwithYazi
+            // 
+            this.loginwithYazi.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.loginwithYazi.AutoSize = true;
+            this.loginwithYazi.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginwithYazi.Location = new System.Drawing.Point(55, 8);
+            this.loginwithYazi.Name = "loginwithYazi";
+            this.loginwithYazi.Size = new System.Drawing.Size(165, 18);
+            this.loginwithYazi.TabIndex = 0;
+            this.loginwithYazi.Text = "Login Twitter with SMME";
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = global::SMME_Deneme1.Properties.Resources.twitter_logo;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(280, 30);
+            this.pictureBox2.Location = new System.Drawing.Point(161, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(105, 61);
-            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.Size = new System.Drawing.Size(139, 83);
+            this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::SMME_Deneme1.Properties.Resources.smme_logo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(161, 30);
+            this.pictureBox1.Location = new System.Drawing.Point(6, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(113, 61);
-            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.Size = new System.Drawing.Size(149, 83);
+            this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // button2
+            // tableLayoutPanel1
             // 
-            this.button2.BackgroundImage = global::SMME_Deneme1.Properties.Resources.E10101_2;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(142, 131);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(77, 36);
-            this.button2.TabIndex = 3;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button1_Click);
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 195F));
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.usernameFT, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.passwordFT, 1, 1);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 134);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(294, 126);
+            this.tableLayoutPanel1.TabIndex = 1;
             // 
-            // button1
+            // label1
             // 
-            this.button1.BackgroundImage = global::SMME_Deneme1.Properties.Resources.giriş_butonu_png_2;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(23, 131);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 36);
-            this.button1.TabIndex = 3;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(7, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 19);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Kullanıcı Adı";
             // 
-            // backicon
+            // label2
             // 
-            this.backicon.BackgroundImage = global::SMME_Deneme1.Properties.Resources.back_icon;
-            this.backicon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.backicon.Location = new System.Drawing.Point(186, 170);
-            this.backicon.Name = "backicon";
-            this.backicon.Size = new System.Drawing.Size(33, 23);
-            this.backicon.TabIndex = 9;
-            this.backicon.UseVisualStyleBackColor = true;
-            this.backicon.Click += new System.EventHandler(this.backicon_Click);
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(54, 85);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(42, 19);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Şifre";
+            // 
+            // usernameFT
+            // 
+            this.usernameFT.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.usernameFT.Location = new System.Drawing.Point(110, 21);
+            this.usernameFT.Name = "usernameFT";
+            this.usernameFT.Size = new System.Drawing.Size(173, 20);
+            this.usernameFT.TabIndex = 1;
+            // 
+            // passwordFT
+            // 
+            this.passwordFT.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.passwordFT.Location = new System.Drawing.Point(110, 84);
+            this.passwordFT.MaxLength = 100;
+            this.passwordFT.Name = "passwordFT";
+            this.passwordFT.Size = new System.Drawing.Size(173, 20);
+            this.passwordFT.TabIndex = 1;
+            this.passwordFT.UseSystemPasswordChar = true;
             // 
             // twitterLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(449, 388);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Name = "twitterLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "twitterLogin";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox usernameFT;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button exit;
+        private System.Windows.Forms.Button backButton;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label loginwithYazi;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox passwordFT;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button backicon;
+        private System.Windows.Forms.TextBox usernameFT;
+        private System.Windows.Forms.TextBox passwordFT;
     }
 }

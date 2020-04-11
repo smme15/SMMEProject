@@ -30,9 +30,26 @@ namespace SMME_Deneme1
             grs.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            girisEkranı grs = new girisEkranı();
+            this.Hide();
+            grs.Show();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
