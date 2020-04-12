@@ -33,6 +33,7 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.exitButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.instagramButton = new System.Windows.Forms.Button();
             this.facebookButton = new System.Windows.Forms.Button();
             this.twitterButton = new System.Windows.Forms.Button();
@@ -55,13 +56,13 @@
             // 
             this.twitterLabel.AllowDrop = true;
             this.twitterLabel.AutoSize = true;
-            this.twitterLabel.Font = new System.Drawing.Font("Lucida Bright", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.twitterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.twitterLabel.LinkArea = new System.Windows.Forms.LinkArea(0, 10);
             this.twitterLabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.twitterLabel.LinkColor = System.Drawing.Color.Black;
             this.twitterLabel.Location = new System.Drawing.Point(179, 179);
             this.twitterLabel.Name = "twitterLabel";
-            this.twitterLabel.Size = new System.Drawing.Size(52, 20);
+            this.twitterLabel.Size = new System.Drawing.Size(47, 20);
             this.twitterLabel.TabIndex = 7;
             this.twitterLabel.TabStop = true;
             this.twitterLabel.Text = "Twitter";
@@ -73,7 +74,7 @@
             // 
             this.linkLabel1.AllowDrop = true;
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Lucida Bright", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkArea = new System.Windows.Forms.LinkArea(0, 10);
             this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
@@ -91,13 +92,13 @@
             // 
             this.linkLabel2.AllowDrop = true;
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Font = new System.Drawing.Font("Lucida Bright", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel2.LinkArea = new System.Windows.Forms.LinkArea(0, 10);
             this.linkLabel2.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel2.LinkColor = System.Drawing.Color.Black;
             this.linkLabel2.Location = new System.Drawing.Point(528, 179);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(70, 20);
+            this.linkLabel2.Size = new System.Drawing.Size(67, 20);
             this.linkLabel2.TabIndex = 7;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Instagram";
@@ -123,6 +124,18 @@
             this.exitButton.TabIndex = 6;
             this.exitButton.UseVisualStyleBackColor = false;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackgroundImage = global::SMME_Deneme1.Properties.Resources.icons8_settings_50;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(605, 397);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(53, 53);
+            this.button1.TabIndex = 8;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // instagramButton
             // 
@@ -198,9 +211,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.BackColor = global::SMME_Deneme1.Properties.Settings.Default.DefaultColor;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.exitButton;
             this.ClientSize = new System.Drawing.Size(767, 456);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.twitterLabel);
@@ -210,6 +225,7 @@
             this.Controls.Add(this.facebookButton);
             this.Controls.Add(this.twitterButton);
             this.Controls.Add(this.pictureBox2);
+            this.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::SMME_Deneme1.Properties.Settings.Default, "DefaultColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.Name = "girisEkranı";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SMME Giris Ekranı";
@@ -231,6 +247,7 @@
         private System.Windows.Forms.LinkLabel twitterLabel;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.Button button1;
     }
 }
 

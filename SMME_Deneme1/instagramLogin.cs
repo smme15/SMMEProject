@@ -30,5 +30,11 @@ namespace SMME_Deneme1
             this.Hide();
             grs.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            settings set = new settings();
+            set.Show();
+        }
     }
 }

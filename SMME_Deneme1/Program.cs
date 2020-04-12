@@ -10,6 +10,7 @@ namespace SMME_Deneme1
     {
         /// <summary>
         /// Uygulamanın ana girdi noktası.
+        /// Seko commit
         /// </summary>
         [STAThread]
         static void Main()

@@ -57,5 +57,11 @@ namespace SMME_Deneme1
             instagramLogin loginI = new instagramLogin();
             loginI.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            settings set = new settings();
+            set.Show();
+        }
     }
 }
