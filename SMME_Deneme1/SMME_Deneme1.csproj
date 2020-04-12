@@ -188,5 +188,9 @@
   <ItemGroup>
     <None Include="Resources\icons8-settings-50.png" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Sounds\buttonvoice.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

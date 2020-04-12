@@ -224,9 +224,9 @@
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.BackgroundImage = global::SMME_Deneme1.Properties.Resources.icons8_settings_50;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(384, 323);
+            this.button2.Location = new System.Drawing.Point(387, 326);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(53, 53);
+            this.button2.Size = new System.Drawing.Size(50, 50);
             this.button2.TabIndex = 9;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
