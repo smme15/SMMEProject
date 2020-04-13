@@ -287,11 +287,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackColor = global::SMME_Deneme1.Properties.Settings.Default.DefaultColor;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(646, 419);
             this.Controls.Add(this.panel1);
-            this.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::SMME_Deneme1.Properties.Settings.Default, "DefaultColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.MinimumSize = new System.Drawing.Size(662, 458);
             this.Name = "girisEkranı";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

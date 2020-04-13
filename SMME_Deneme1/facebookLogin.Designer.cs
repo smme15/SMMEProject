@@ -70,7 +70,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.36364F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.63636F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 45F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 51F));
             this.tableLayoutPanel2.Controls.Add(this.button2, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.button1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.exit, 1, 0);
@@ -87,7 +87,7 @@
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.BackgroundImage = global::SMME_Deneme1.Properties.Resources.icons8_settings_50;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(288, 3);
+            this.button2.Location = new System.Drawing.Point(287, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(42, 27);
             this.button2.TabIndex = 10;
@@ -121,7 +121,7 @@
             this.exit.ForeColor = System.Drawing.SystemColors.ControlText;
             this.exit.Location = new System.Drawing.Point(150, 3);
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(87, 27);
+            this.exit.Size = new System.Drawing.Size(86, 27);
             this.exit.TabIndex = 0;
             this.exit.UseVisualStyleBackColor = false;
             this.exit.Click += new System.EventHandler(this.button2_Click_1);
@@ -132,7 +132,7 @@
             this.backButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.backButton.FlatAppearance.BorderSize = 0;
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backButton.Location = new System.Drawing.Point(243, 3);
+            this.backButton.Location = new System.Drawing.Point(242, 3);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(39, 23);
             this.backButton.TabIndex = 1;
