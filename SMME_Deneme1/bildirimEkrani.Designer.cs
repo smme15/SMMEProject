@@ -67,7 +67,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 87.5F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 102F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 103F));
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.solReklam, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.sagReklam, 2, 0);
@@ -99,7 +99,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 235F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(733, 507);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(732, 507);
             this.tableLayoutPanel2.TabIndex = 0;
             this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
             // 
@@ -118,7 +118,7 @@
             this.tableLayoutPanel5.RowCount = 2;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.5625F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.4375F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(727, 53);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(726, 53);
             this.tableLayoutPanel5.TabIndex = 2;
             // 
             // tableLayoutPanel6
@@ -128,7 +128,7 @@
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.53846F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 437F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 63F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76F));
             this.tableLayoutPanel6.Controls.Add(this.pictureBox3, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.label2, 1, 0);
             this.tableLayoutPanel6.Controls.Add(this.label3, 3, 0);
@@ -165,7 +165,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(604, 4);
+            this.label3.Location = new System.Drawing.Point(603, 4);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(13, 13);
             this.label3.TabIndex = 3;
@@ -175,7 +175,7 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(623, 4);
+            this.label4.Location = new System.Drawing.Point(622, 4);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 13);
             this.label4.TabIndex = 4;
@@ -197,7 +197,7 @@
             this.pictureBox1.BackgroundImage = global::SMME_Deneme1.Properties.Resources.smme_logo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.No;
-            this.pictureBox1.Location = new System.Drawing.Point(286, 7);
+            this.pictureBox1.Location = new System.Drawing.Point(285, 7);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(161, 116);
             this.pictureBox1.TabIndex = 0;
@@ -218,7 +218,7 @@
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.5625F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.4375F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(727, 49);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(726, 49);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
             // tableLayoutPanel4
@@ -228,7 +228,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.53846F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 437F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 63F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76F));
             this.tableLayoutPanel4.Controls.Add(this.pictureBox2, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.label1, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.bildirimSuresi, 3, 0);
@@ -265,7 +265,7 @@
             // 
             this.bildirimSuresi.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.bildirimSuresi.AutoSize = true;
-            this.bildirimSuresi.Location = new System.Drawing.Point(604, 3);
+            this.bildirimSuresi.Location = new System.Drawing.Point(603, 3);
             this.bildirimSuresi.Name = "bildirimSuresi";
             this.bildirimSuresi.Size = new System.Drawing.Size(13, 13);
             this.bildirimSuresi.TabIndex = 3;
@@ -275,7 +275,7 @@
             // 
             this.bildirimZamani.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.bildirimZamani.AutoSize = true;
-            this.bildirimZamani.Location = new System.Drawing.Point(623, 3);
+            this.bildirimZamani.Location = new System.Drawing.Point(622, 3);
             this.bildirimZamani.Name = "bildirimZamani";
             this.bildirimZamani.Size = new System.Drawing.Size(49, 13);
             this.bildirimZamani.TabIndex = 4;
@@ -296,7 +296,7 @@
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button1.BackgroundImage = global::SMME_Deneme1.Properties.Resources.arrow_up_a;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(693, 482);
+            this.button1.Location = new System.Drawing.Point(692, 482);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(37, 22);
             this.button1.TabIndex = 3;
@@ -319,7 +319,7 @@
             // 
             this.sagReklam.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.sagReklam.AutoSize = true;
-            this.sagReklam.Location = new System.Drawing.Point(853, 250);
+            this.sagReklam.Location = new System.Drawing.Point(852, 250);
             this.sagReklam.Name = "sagReklam";
             this.sagReklam.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.sagReklam.Size = new System.Drawing.Size(85, 13);
@@ -337,8 +337,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = global::SMME_Deneme1.Properties.Settings.Default.DefaultColor;
             this.ClientSize = new System.Drawing.Size(947, 513);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::SMME_Deneme1.Properties.Settings.Default, "DefaultColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "bildirimEkrani";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

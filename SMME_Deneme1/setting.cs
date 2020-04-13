@@ -19,13 +19,13 @@ namespace SMME_Deneme1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.DefaultColor = SystemColors.ControlDarkDark;
+            Properties.Settings.Default.DefaultColor = SystemColors.ControlLightLight;
             Properties.Settings.Default.Save();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.DefaultColor = SystemColors.ControlLightLight;
+            Properties.Settings.Default.DefaultColor = SystemColors.ControlDarkDark;
             Properties.Settings.Default.Save();
         }
 
@@ -42,6 +42,11 @@ namespace SMME_Deneme1
         private void tableLayoutPanel5_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }
