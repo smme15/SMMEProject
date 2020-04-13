@@ -17,7 +17,7 @@ namespace SMME_Deneme1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new girisEkranı());
+            Application.Run(new setting());
         }
     }
 }

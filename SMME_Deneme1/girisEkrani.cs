@@ -22,19 +22,7 @@ namespace SMME_Deneme1
             
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
-        }
-
-        private void facebookButton_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            facebookLogin loginF = new facebookLogin();
-            loginF.Show();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
         {
 
         }
@@ -51,17 +39,24 @@ namespace SMME_Deneme1
             Application.Exit();
         }
 
-        private void instagramButton_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            instagramLogin loginI = new instagramLogin();
-            loginI.Show();
+            settings set1 = new settings();
+            set1.Show();
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            settings set = new settings();
-            set.Show();
+            facebookLogin loginF = new facebookLogin();
+            this.Hide();
+            loginF.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            instagramLogin loginI = new instagramLogin();
+            this.Hide();
+            loginI.Show();
         }
     }
 }
