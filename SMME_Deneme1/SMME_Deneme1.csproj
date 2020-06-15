@@ -48,6 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -67,11 +70,18 @@
     <Compile Include="bildirimEkrani.Designer.cs">
       <DependentUpon>bildirimEkrani.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entity\UserInfo.cs" />
     <Compile Include="facebookLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="facebookLogin.Designer.cs">
       <DependentUpon>facebookLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="facebookManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="facebookManager.Designer.cs">
+      <DependentUpon>facebookManager.cs</DependentUpon>
     </Compile>
     <Compile Include="girisEkrani.cs">
       <SubType>Form</SubType>
@@ -105,6 +115,9 @@
     <EmbeddedResource Include="facebookLogin.resx">
       <DependentUpon>facebookLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="facebookManager.resx">
+      <DependentUpon>facebookManager.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="girisEkrani.resx">
       <DependentUpon>girisEkrani.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,6 +140,7 @@
     <EmbeddedResource Include="twitterLogin.resx">
       <DependentUpon>twitterLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -208,6 +222,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\toggle_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Facebook\Facebook.csproj">
+      <Project>{6f9f7ab3-ace9-43d5-9a02-5ee9cc257701}</Project>
+      <Name>Facebook</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

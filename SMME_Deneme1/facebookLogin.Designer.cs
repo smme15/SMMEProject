@@ -41,8 +41,8 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.usernameFF = new System.Windows.Forms.TextBox();
-            this.passwordFF = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -70,7 +70,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.36364F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.63636F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 45F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 51F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 56F));
             this.tableLayoutPanel2.Controls.Add(this.button2, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.button1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.exit, 1, 0);
@@ -87,7 +87,7 @@
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.BackgroundImage = global::SMME_Deneme1.Properties.Resources.icons8_settings_50;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(287, 3);
+            this.button2.Location = new System.Drawing.Point(282, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(42, 27);
             this.button2.TabIndex = 10;
@@ -106,7 +106,7 @@
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 27);
+            this.button1.Size = new System.Drawing.Size(138, 27);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
@@ -119,9 +119,9 @@
             this.exit.FlatAppearance.BorderSize = 0;
             this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exit.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.exit.Location = new System.Drawing.Point(150, 3);
+            this.exit.Location = new System.Drawing.Point(147, 3);
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(86, 27);
+            this.exit.Size = new System.Drawing.Size(84, 27);
             this.exit.TabIndex = 0;
             this.exit.UseVisualStyleBackColor = false;
             this.exit.Click += new System.EventHandler(this.button2_Click_1);
@@ -132,7 +132,7 @@
             this.backButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.backButton.FlatAppearance.BorderSize = 0;
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backButton.Location = new System.Drawing.Point(242, 3);
+            this.backButton.Location = new System.Drawing.Point(237, 3);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(39, 23);
             this.backButton.TabIndex = 1;
@@ -186,8 +186,8 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 195F));
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.usernameFF, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.passwordFF, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txtEmail, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.txtPassword, 1, 1);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 134);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
@@ -201,11 +201,12 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(49, 22);
+            this.label1.Location = new System.Drawing.Point(96, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 19);
+            this.label1.Size = new System.Drawing.Size(42, 19);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Kullanıcı Adı";
+            this.label1.Text = "Email";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -218,37 +219,36 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Şifre";
             // 
-            // usernameFF
+            // txtEmail
             // 
-            this.usernameFF.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.usernameFF.Location = new System.Drawing.Point(152, 21);
-            this.usernameFF.Name = "usernameFF";
-            this.usernameFF.Size = new System.Drawing.Size(173, 20);
-            this.usernameFF.TabIndex = 1;
+            this.txtEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtEmail.Location = new System.Drawing.Point(152, 21);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(173, 20);
+            this.txtEmail.TabIndex = 1;
             // 
-            // passwordFF
+            // txtPassword
             // 
-            this.passwordFF.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.passwordFF.Location = new System.Drawing.Point(152, 84);
-            this.passwordFF.MaxLength = 100;
-            this.passwordFF.Name = "passwordFF";
-            this.passwordFF.Size = new System.Drawing.Size(173, 20);
-            this.passwordFF.TabIndex = 1;
-            this.passwordFF.UseSystemPasswordChar = true;
-            this.passwordFF.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtPassword.Location = new System.Drawing.Point(152, 84);
+            this.txtPassword.MaxLength = 100;
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(173, 20);
+            this.txtPassword.TabIndex = 1;
+            this.txtPassword.UseSystemPasswordChar = true;
+            this.txtPassword.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // facebookLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = global::SMME_Deneme1.Properties.Settings.Default.DefaultColor;
             this.ClientSize = new System.Drawing.Size(380, 327);
             this.Controls.Add(this.panel1);
-            this.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::SMME_Deneme1.Properties.Settings.Default, "DefaultColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "facebookLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "facebookLogin";
+            this.Load += new System.EventHandler(this.facebookLogin_Load);
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -271,8 +271,8 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox usernameFF;
-        private System.Windows.Forms.TextBox passwordFF;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button exit;
