@@ -48,5 +48,7 @@ namespace SMME_Deneme1
         {
             this.Hide();
         }
+
+     
     }
 }

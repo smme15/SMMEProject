@@ -234,7 +234,6 @@
             this.passwordFT.TabIndex = 1;
             this.passwordFT.UseSystemPasswordChar = true;
             // 
-<<<<<<< HEAD
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.White;
@@ -245,10 +244,7 @@
             this.button2.Size = new System.Drawing.Size(50, 50);
             this.button2.TabIndex = 9;
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-=======
->>>>>>> master
             // twitterLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);

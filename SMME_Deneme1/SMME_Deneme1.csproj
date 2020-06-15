@@ -202,11 +202,9 @@
   <ItemGroup>
     <None Include="Resources\icons8-settings-50.png" />
   </ItemGroup>
-<<<<<<< HEAD
-  <ItemGroup />
   <ItemGroup>
     <Content Include="Sounds\buttonvoice.wav" />
-=======
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fb-tw-bg.jpg" />
   </ItemGroup>
@@ -227,7 +225,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\toggle_right.png" />
->>>>>>> master
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Facebook\Facebook.csproj">

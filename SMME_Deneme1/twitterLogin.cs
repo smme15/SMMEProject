@@ -32,13 +32,10 @@ namespace SMME_Deneme1
 
         private void exit_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            settings set = new settings();
+            setting set = new setting();
             set.Show();
 
-=======
             Application.Exit();
->>>>>>> master
         }
     }
 }
