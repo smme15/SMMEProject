@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -31,7 +32,13 @@ namespace SMME_Deneme1
 
         private void exit_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+            settings set = new settings();
+            set.Show();
+
+=======
             Application.Exit();
+>>>>>>> master
         }
     }
 }
