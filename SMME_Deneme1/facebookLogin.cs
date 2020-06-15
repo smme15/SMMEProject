@@ -54,8 +54,13 @@ namespace SMME_Deneme1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            settings set = new settings();
+            setting set = new setting();
             set.Show();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
