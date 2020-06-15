@@ -19,7 +19,7 @@ namespace SMME_Deneme1
     public partial class facebookManager : Form
     {
         //static string endpoint = "me";
-        static string accessToken = "EAACyvduI16kBAC11R6WwpZAHqsikyUpEYcdDKHBOmd2cIaD18CkpNMiIdETq2nZCkCHpkmTfoDJeOBzOm3sAU36ZAb7pQu0YjSe6F8GYNFVovJEvFMrdzneuZBfCZBroprxJ3chvZB7ckFnuvW414OZBEI6AsBiZCUfJ6ZCkH0hId1XYDzaMqYPJeF1LfRZAtgqkxOvG6IOZAno4QZDZD";
+        static string accessToken = "EAACyvduI16kBANXd4y7Oe5MaYKGs3LmhmsmZAlnahukaSZByxnZCv4l5ddMpt87fi9XsWZBFveRIb0r6ypqd6BGH4yh00mCahpgmUGSlPpMAngZBkHm9ASzCpVxj0G8Od4jelrRf46QMbUVtZBlBLXDC9pdzv23Ovo28CoK8Y7CHpJRk6fo5931iZAX7azqzGT7oRmTZBwJOwAZDZD";
         //static string args = "fields=name,email,first_name,last_name,age_range,birthday,gender,locale";
 
         private UserEndpoint _user;
