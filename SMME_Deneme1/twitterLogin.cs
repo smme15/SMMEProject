@@ -18,30 +18,27 @@ namespace SMME_Deneme1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void backicon_Click(object sender, EventArgs e)
-        {
-            girisEkranı grs = new girisEkranı();
-            this.Hide();
-            grs.Show();
-        }
-
         private void backButton_Click(object sender, EventArgs e)
         {
             girisEkranı grs = new girisEkranı();
             this.Hide();
             grs.Show();
         }
-
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
+            setting set = new setting();
+            set.Show();
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+<<<<<<< HEAD
             settings set = new settings();
             set.Show();
 
+=======
+            Application.Exit();
+>>>>>>> master
         }
     }
 }
