@@ -15,13 +15,18 @@ namespace SMME_Deneme1
         public bildirimEkrani()
         {
             InitializeComponent();
+            bildirimLabel1.Text = Panel.Notification.ToString();
+
         }
 
-        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+   
+        public void changeNotify()
         {
-
+            bildirimLabel1.Text = Panel.Notification.ToString();
         }
 
+        public static Panel panel = new Panel();
+    
         private void timer1_Tick(object sender, EventArgs e)
         {
             int deger = int.Parse(bildirimSuresi.Text);
@@ -44,6 +49,11 @@ namespace SMME_Deneme1
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        public void bildirimLabel1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

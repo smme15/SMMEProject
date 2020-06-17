@@ -162,21 +162,21 @@
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.BackgroundImage = global::SMME_Deneme1.Properties.Resources.instagram_logos_png_images_free_download_2;
+            this.button2.BackColor = System.Drawing.Color.Blue;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Marlett", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button2.Location = new System.Drawing.Point(268, 17);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(97, 93);
             this.button2.TabIndex = 0;
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Text = "PANEL İÇİN ";
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
@@ -197,11 +197,11 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(165, 127);
+            this.label2.Location = new System.Drawing.Point(160, 127);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 19);
+            this.label2.Size = new System.Drawing.Size(67, 19);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Twitter";
+            this.label2.Text = "Facebook";
             // 
             // label3
             // 
@@ -209,11 +209,11 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(288, 127);
+            this.label3.Location = new System.Drawing.Point(316, 127);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 19);
+            this.label3.Size = new System.Drawing.Size(0, 19);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Twitter";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox1
             // 

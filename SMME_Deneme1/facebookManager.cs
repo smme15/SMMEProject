@@ -58,19 +58,33 @@ namespace SMME_Deneme1
             //this.txtEmail.Text = obj.Friends.Summary.total_count.ToString();
         }
 
+        //Get Post
 
 
-        private void sharePost()
+        //get Like
+
+        private void txtPost_TextChanged(object sender, EventArgs e)
         {
-
 
         }
 
-
-        //Get Post
-        private void button1_Click(object sender, EventArgs e)
+        private void shareButton_Click(object sender, EventArgs e)
         {
+            if (!String.IsNullOrEmpty(txtPost.Text))
+            {
+                _user.Post(txtPost.Text);
+                txtPost.Text = "";
+                mainPageButton_Click(sender, e);
+            }
+            else
+            {
+                //Show error dialog 
+                // error txtPost text is empty
+            }
+        }
 
+        private void mainPageButton_Click(object sender, EventArgs e)
+        {
             var endpoint = "me";
             var args = "fields=posts.limit(10){message,name,full_picture,created_time}";
             var response = _http.GetAsync($"{endpoint}?access_token={accessToken}&{args}").Result;
@@ -83,19 +97,18 @@ namespace SMME_Deneme1
             var result = response.Content.ReadAsStringAsync().Result;
             var posts = JsonConvert.DeserializeObject(result) as dynamic;
 
-            List<PostData> postList = new List<PostData>(); 
+            List<PostData> postList = new List<PostData>();
 
             foreach (var item in ((JArray)posts.posts.data).ToObject<List<PostData>>())
             {
-                if(item.message != null ||item.full_picture != null)
+                if (item.message != null || item.full_picture != null)
                 {
                     postList.Add(item);
                 }
             }
         }
 
-        //get Like
-        private void button2_Click(object sender, EventArgs e)
+        private void notificationButton_Click(object sender, EventArgs e)
         {
             var endpoint = "me";
             var args = "fields=likes.limit(10){name,link}";
@@ -119,21 +132,6 @@ namespace SMME_Deneme1
                 {
                     likeList.Add(item);
                 }
-            }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            if (!String.IsNullOrEmpty(txtPost.Text))
-            {
-                _user.Post(txtPost.Text);
-                txtPost.Text = "";
-                button1_Click(sender, e);
-            }
-            else
-            {
-                //Show error dialog 
-                // error txtPost text is empty
             }
         }
     }

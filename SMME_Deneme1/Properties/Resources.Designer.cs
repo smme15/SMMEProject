@@ -63,6 +63,16 @@ namespace SMME_Deneme1.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap _55_559106_clipart_website_buttons_oval_button_png {
+            get {
+                object obj = ResourceManager.GetObject("55-559106_clipart-website-buttons-oval-button-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap arrow_up_a {
             get {
                 object obj = ResourceManager.GetObject("arrow-up-a", resourceCulture);
@@ -96,6 +106,16 @@ namespace SMME_Deneme1.Properties {
         internal static System.Drawing.Bitmap bildirim_onizle {
             get {
                 object obj = ResourceManager.GetObject("bildirim_onizle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap buttons_PNG177 {
+            get {
+                object obj = ResourceManager.GetObject("buttons_PNG177", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +196,16 @@ namespace SMME_Deneme1.Properties {
         internal static System.Drawing.Bitmap moon {
             get {
                 object obj = ResourceManager.GetObject("moon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngwing_com {
+            get {
+                object obj = ResourceManager.GetObject("pngwing.com", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -37,5 +37,12 @@ namespace SMME_Deneme1
 
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            twitterManager twm = new twitterManager();
+            twm.Show();
+        }
     }
 }

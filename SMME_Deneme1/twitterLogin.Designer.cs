@@ -70,7 +70,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65.23438F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.76563F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 45F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 47F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 48F));
             this.tableLayoutPanel2.Controls.Add(this.button1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.exit, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.backButton, 2, 0);
@@ -97,6 +97,7 @@
             this.button1.Size = new System.Drawing.Size(144, 25);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // exit
             // 
@@ -108,7 +109,7 @@
             this.exit.ForeColor = System.Drawing.SystemColors.ControlText;
             this.exit.Location = new System.Drawing.Point(168, 3);
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(82, 25);
+            this.exit.Size = new System.Drawing.Size(81, 25);
             this.exit.TabIndex = 0;
             this.exit.UseVisualStyleBackColor = false;
             this.exit.Click += new System.EventHandler(this.exit_Click);
@@ -119,7 +120,7 @@
             this.backButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.backButton.FlatAppearance.BorderSize = 0;
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backButton.Location = new System.Drawing.Point(256, 3);
+            this.backButton.Location = new System.Drawing.Point(255, 3);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(39, 23);
             this.backButton.TabIndex = 1;
@@ -131,10 +132,10 @@
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.BackgroundImage = global::SMME_Deneme1.Properties.Resources.icons8_settings_50;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(301, 3);
+            this.button2.Location = new System.Drawing.Point(300, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(39, 25);
-            this.button2.TabIndex = 10;
+            this.button2.Size = new System.Drawing.Size(43, 25);
+            this.button2.TabIndex = 9;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
@@ -234,25 +235,12 @@
             this.passwordFT.TabIndex = 1;
             this.passwordFT.UseSystemPasswordChar = true;
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.BackgroundImage = global::SMME_Deneme1.Properties.Resources.icons8_settings_50;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(387, 326);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(50, 50);
-            this.button2.TabIndex = 9;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
             // twitterLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = global::SMME_Deneme1.Properties.Settings.Default.DefaultColor;
             this.ClientSize = new System.Drawing.Size(386, 323);
             this.Controls.Add(this.panel1);
-            this.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::SMME_Deneme1.Properties.Settings.Default, "DefaultColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.Name = "twitterLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "twitterLogin";
