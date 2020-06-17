@@ -16,8 +16,8 @@ namespace SMME_Deneme1
         public facebookLogin()
         {
             InitializeComponent();
-            this.txtEmail.Text = "sekoyilmaz14@hotmail.com";
-            this.txtPassword.Text = "yilkar1312";
+            this.txtEmail.Text = "";
+            this.txtPassword.Text = "";
         }
 
         private void button1_Click(object sender, EventArgs e)
